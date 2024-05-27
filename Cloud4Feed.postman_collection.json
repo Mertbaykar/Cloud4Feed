@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "fa836fb2-27ad-4aad-a084-ccdbfcb54c5a",
+		"name": "Cloud4Feed",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18762038"
+	},
+	"item": [
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Sifre498.X",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "mertbaykar@hotmail.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7039/api/product/getall",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7039",
+							"path": [
+								"api",
+								"product",
+								"getall"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Sifre498.X",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "mertbaykar@hotmail.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7039/api/category/getall",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7039",
+							"path": [
+								"api",
+								"category",
+								"getall"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Sifre498.X",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "mertbaykar@hotmail.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":\"4C8A0992-5E2C-4951-835C-A64623FCD1DA\",\r\n    \"IsActive\":true,\r\n    \"Name\": \"Yine güncel\",\r\n    \"Description\":\"Güncel bir açıklama\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7039/api/category/update",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7039",
+							"path": [
+								"api",
+								"category",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": []
+		}
+	]
+}

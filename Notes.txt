@@ -1,0 +1,12 @@
+
+Başlangıç
+appsettings.json'da connectionstring düzenleme 
+DB initialization için aynı dosyada automigration düzenleme
+
+User
+Sadece Basic Authentication için hızlıca kullanıcı oluşturmak için yaratıldı. 
+Endpoint üzerinden yaratılabilir
+
+Postman ile Basic Authentication kullanılarak endpoint testi yapabilmek için prototip bir 
+json dosyası bu dizinde yer alıyor. Kullanıcı oluşturulduktan sonra gerekli bilgiler editlenerek
+bu aşama uygulanabilir.
